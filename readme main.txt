@@ -1,16 +1,18 @@
 Helmet Main Readme
 ------------------
 
-Welcome to the Autonomous Visor Cycling Helmet GUI by Ning Xuan Tan, Andrew Shacker, and Xander White, 2018.
+Welcome to the Autonomous Visor Cycling Helmet project by Ning Xuan Tan, Andrew Shacker, and Xander White, 2018.
 
 Guide
 1. Connect the myRio to WiFi/USB.
 2. Follow the "Integrating Android Devices with NI Sofware" tutorial at: http://www.ni.com/example/31558/en/ to use your phone's camera for vehicle detection and tracking.
 *For a quickstart, choose an existing webcam from the Vision Acquisition wizard.
-3. Run the myRio VI labeled "Main_myRIO_helmet.vi" from the Autonomous Visor Helmet project tree (under the myRio folder).
-4. Run the "PC_Main_Helmet.vi" under the PC folder. To enable full-screen, exit the VI, update the resolution constants in the block diagram, and remove the diagram disable structure.
-5. Set your desired settings in each tab on the GUI.
-6. Your helmet is ready to use!
+3. Download NI Vision at: http://www.ni.com/academic/download/archive/ 
+4. In the Image Processing Wizard, set the template path to the image in the PC folder for the second geometric matching function.
+5. Run the myRio VI labeled "Main_myRIO_helmet.vi" from the Autonomous Visor Helmet project tree (under the myRio folder).
+6. Run the "PC_Main_Helmet.vi" under the PC folder. To enable full-screen, exit the VI, update the resolution constants in the first frame of the flat sequence, and remove the diagram disable structure.
+7. Set your desired settings in each tab on the GUI.
+8. Your helmet is ready to use!
 
 Modes
 Manual: Deploys visor only when button0 on myRIO is pressed.
