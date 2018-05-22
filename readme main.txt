@@ -1,7 +1,7 @@
 Helmet Main Readme
 ------------------
 
-Welcome to the Autonomous Visor Cycling Helmet project by Ning Xuan Tan, Andrew Shacker, and Xander White, 2018.
+Welcome to the Autonomous Visor Cycling Helmet project by Andrew Shacker, Ning Xuan Tan, and Xander White, 2018.
 
 Guide
 1. Connect the myRio to WiFi/USB.
